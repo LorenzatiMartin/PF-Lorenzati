@@ -1,0 +1,213 @@
+/*
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lato:ital,wght@1,100&family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+.logo2{
+    height: 40px;
+}
+
+
+/* navbar
+*/
+
+.nav-enlace{
+    display: inline-block;
+    background: #ffffff;
+    color: #0008f5;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: #513434;
+}
+
+.titulo1{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-botton{
+    background: #fefefe;
+    color: rgb(184, 179, 179);
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+@media (max-width:600px) {
+    .titulo1{
+        background: rgb(63, 63, 139);
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-botton{
+        display: inline-block;
+    }
+}
+
+
+
+/* HTML PRINCIPAL
+*/
+
+.imagencaro{
+    width: 1400px;
+    height: 450px;
+}
+
+/*footer html principal*/
+.footer{
+    background: #152F4F;
+    color:white;
+}
+
+/* FOOTER
+*/
+
+.piedepagina{
+    font-family: 'Climate Crisis';
+    background: #0c34a1;
+    height: 100px;
+    line-height:20px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    .piedepagina{
+        background: rgb(212, 202, 200);
+        color: rgb(25, 0, 255);
+        flex-direction: column;
+    }
+}
+
+
+/*registro
+*/
+
+
+.form-register{
+    width: 500px;
+    background: #24303c;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    background: #7f8bb6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(224, 3, 3);
+    font-size: 15px;
+
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: underline;
+}
+.form-register .boton{
+    width: 100%;
+    background: #6981c8;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.bbody{
+    background-color: #f9f5f5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+}
+
+/*
+Nosotros
+*/
+
+
+.nosotros1{
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+
+.titulonosotros{
+    color: #baa5a5;
+    background: #1f3045;
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.imagennosotros{
+    display: flex;
+    width: 1370px;
+    height: 260px;
+}
+
+@media (max-width= 600px){
+    .nosotros1{
+        display: grid;
+        background: #1f3045;
+        color: #baa5a5;
+    }
+    .titulonosotros{
+        background: #1f3045;
+    }
+    .imagennosotros{
+        height: 300px;
+        
+    }
+}
+
+/*
+Noticias
+*/
+
+.imagennoti3{
+    height: 200px;
+    padding: 5px;
+
+}
+
+.imagennoti2{
+    height: 200px;
+    padding:5px ;
+}
+
+.imagennoti1{
+    height: 200px;
+    padding: 5px;
+}
+
+.contenedor{
+    background-color:#f0f1f3;
+}
