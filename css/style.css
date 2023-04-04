@@ -63,7 +63,7 @@ nav li a:hover {
   
   /* Estilos para la sección de hero */
   .hero {
-    background-image: url(../img/Inicio/foto-principal.jpg);
+    background-image: url(../img/Inicio/pagina1inicio.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -410,3 +410,61 @@ Noticias
     background-color: #0069d9;
     border-color: #0062cc;
   }
+
+
+/* Preguntas */
+
+.infopreguntas{
+    background-image: url("../img/preguntas-frecuentes/fondo-preguntasfrecuentes.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.pregunt{
+    text-align: center;
+    color: white;
+}
+
+.pregunt h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pregunt p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.faq-item {
+    width: 30%;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+}
+
+.faq-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.faq-item img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.faq-item p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
