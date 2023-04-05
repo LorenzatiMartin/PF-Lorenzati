@@ -18,7 +18,7 @@
 */
 
 nav {
-    background-color: #333;
+    background-color: #749ca9;
     overflow: hidden;
 }
   
@@ -34,20 +34,20 @@ nav li {
   
 nav li a {
     display: block;
-    color: white;
+    color: rgb(3, 32, 35);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
 nav li a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #fcf9f9;
+    color: rgb(255, 255, 255);
 }
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 600px) {
     nav {
-      background-color: #f2f2f2;
+      background-color: #749ca9;
     }
     nav li {
       display: block;
@@ -61,7 +61,7 @@ nav li a:hover {
     }
   }
   
-  /* Estilos para la sección de hero */
+  /*estilo*/
   .hero {
     background-image: url(../img/Inicio/pagina1inicio.jpg);
     background-size: cover;
@@ -95,72 +95,6 @@ nav li a:hover {
     margin-top: 20px;
     font-size: 1.2em;
   }
-  
-  /* Estilos para la sección de servicios */
-  .services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 50px 0;
-  }
-  
-  .service {
-    text-align: center;
-    margin-bottom: 50px;
-    max-width: 350px;
-  }
-  
-  .service img {
-    max-width: 100%;
-  }
-  
-  .service h3 {
-    font-size: 2em;
-    margin-top: 30px;
-  }
-  
-  .service p {
-    font-size: 1.2em;
-    margin-top: 0;
-  }
-  
-  /* Estilos para la sección de sobre nosotros */
-  .about-us {
-    background-color: #f2f2f2;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .about-us h2 {
-    font-size: 2.5em;
-    margin-bottom: 50px;
-  }
-  
-  .about-us p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-  
-  .about-us .btn {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2em;
-  }
-  
-  /* Estilos para el footer */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
-  
   /* Estilos para pantallas pequeñas */
   @media screen and (max-width: 600px) {
     .hero {
@@ -186,9 +120,75 @@ nav li a:hover {
       font-size: 1em;
     }
   }
+  
+  /* Estilos para la sección de servicios */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+.service {
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 350px;
+  }
+  
+.service img {
+    max-width: 100%;
+  }
+  
+.service h3 {
+    font-size: 2em;
+    margin-top: 30px;
+  }
+  
+.service p {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  
+  /* Estilos para la sección de sobre nosotros */
+.about-us {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+  }
+  
+.about-us p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
+.about-us .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  /* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
 
 
-  .nav-enlace{
+.nav-enlace{
     display: inline-block;
     background: #ffffff;
     color: #0008f5;
@@ -225,29 +225,6 @@ nav li a:hover {
     }
 }
 
-
-
-/* HTML PRINCIPAL
-*/
-
-.imagencaro{
-    width: 1400px;
-    height: 450px;
-}
-
-/*footer html principal*/
-.footer{
-    background: #152F4F;
-    color:white;
-}
-
-@media (max-width: 600px) {
-    .piedepagina{
-        background: rgb(212, 202, 200);
-        color: rgb(25, 0, 255);
-        flex-direction: column;
-    }
-}
 
 
 /*registro
@@ -307,69 +284,128 @@ input[type="checkbox"] {
 	margin-right: 10px;
 }
 
+/* Estilo */
+
+/* 767*/
+@media (max-width: 767px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+/* 575 */
+@media (max-width: 575px) {
+    input, select {
+        font-size: 14px;
+    }
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+/* 1200 */
+@media (min-width: 1200px) {
+    form {
+        max-width: 800px;
+    }
+ }
+
 
 /*
 Nosotros
 */
 
-/* Estilos para la sección "Sobre Nosotros" */
+/* Estilo para la sección "Sobre Nosotros" */
 .about-us {
     background-color: #f2f2f2;
     padding: 50px 0;
   }
   
-  .about-us h2 {
+.about-us h2 {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
   }
   
-  .about-us p {
+.about-us p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 30px;
   }
+
+@media screen and (max-width: 700px) {
+    .about-us {
+      padding: 10% 0;
+    }
+    
+    .about-us h2 {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    
+    .about-us p {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+  }
   
-  /* Estilos para la sección "Nuestro Equipo" */
-  .our-team {
+  /* Estilo para la sección "Nuestro Equipo" */
+.our-team {
     background-color: #fff;
     padding: 50px 0;
   }
   
-  .our-team h2 {
+.our-team h2 {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
   }
   
-  .team-members {
+.team-members {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
   
-  .team-member {
+.team-member {
     width: 30%;
     margin-bottom: 30px;
     text-align: center;
   }
   
-  .team-member img {
+.team-member img {
     border-radius: 50%;
     margin-bottom: 20px;
   }
   
-  .team-member h3 {
+.team-member h3 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
-  .team-member p {
+.team-member p {
     font-size: 18px;
     line-height: 1.5;
+  }
+
+/* 767*/
+@media only screen and (max-width: 767px) {
+    .our-team h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+  
+    .team-members {
+      display: block;
+    }
+  
+    .team-member {
+      width: 100%;
+      margin-bottom: 40px;
+    }
   }
 
 /*
@@ -416,13 +452,13 @@ Noticias
 
 .infopreguntas{
     background-image: url("../img/preguntas-frecuentes/fondo-preguntasfrecuentes.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 30vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .pregunt{
     text-align: center;
@@ -442,12 +478,13 @@ Noticias
 .faq {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2rem;
 }
 
 .faq-item {
-    width: 30%;
+    width: 90%;
+    max-width: 500px;
     margin-bottom: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 1rem;
