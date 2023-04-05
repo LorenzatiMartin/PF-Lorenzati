@@ -152,7 +152,7 @@ nav li a:hover {
     margin-top: 0;
   }
   
-  /* Estilos para la sección de sobre nosotros */
+  /* Estilo para la sección de sobre nosotros */
 .about-us {
     background-color: #f2f2f2;
     padding: 50px 0;
@@ -162,7 +162,11 @@ nav li a:hover {
 .about-us h2 {
     font-size: 2.5em;
     margin-bottom: 50px;
+    font-family: 'Rubik Pixels', cursive;
   }
+
+h2{font-family: 'Rubik Pixels', cursive;
+}
   
 .about-us p {
     font-size: 1.2em;
@@ -252,6 +256,7 @@ form {
 
 h2 {
 	margin-top: 0;
+    font-family: 'Rubik Pixels', cursive;
 }
 
 label {
@@ -415,6 +420,11 @@ Nosotros
 /*
 Noticias
 */
+
+.text {
+    font-family: 'Rubik Pixels', cursive;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -469,9 +479,10 @@ Noticias
     color: white;
 }
 
-.pregunt h1 {
+.titu {
     font-size: 3rem;
     margin-bottom: 1rem;
+    font-family: 'Rubik Pixels', cursive;
 }
 
 .pregunt p {
