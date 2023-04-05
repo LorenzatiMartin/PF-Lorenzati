@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lato:ital,wght@1,100&family=Mouse+Memoirs&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+
+
 .logo2{
     height: 40px;
 }
@@ -62,7 +64,7 @@ nav li a:hover {
   }
   
   /*estilo*/
-  .hero {
+.hero {
     background-image: url(../img/Inicio/pagina1inicio.jpg);
     background-size: cover;
     background-position: center;
@@ -75,17 +77,18 @@ nav li a:hover {
     color: white;
   }
   
-  .hero h1 {
+.hero h1 {
     font-size: 3em;
     margin-bottom: 0;
+    font-family: 'Rubik Pixels', cursive;
   }
   
-  .hero p {
+.hero p {
     font-size: 1.5em;
     margin-top: 0;
   }
   
-  .hero .btn {
+.hero .btn {
     background-color: white;
     color: #333;
     padding: 10px 20px;
@@ -184,6 +187,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    font-family: 'Delicious Handrawn', cursive;
   }
   
 
