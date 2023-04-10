@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+@import "navbar";
+@import "principal";
+@import "estiloServicios";
+@import "estiloNosotros";
+@import "registro";
+@import "noticias";
+@import "nosotros";
+@import "equipoN";
+@import "preguntas";
+@import "footer";
+
+

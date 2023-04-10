@@ -1,0 +1,44 @@
+nav {
+    background-color: #749ca9;
+    overflow: hidden;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: rgb(3, 32, 35);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #fcf9f9;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+      background-color: #749ca9;
+    }
+    nav li {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    nav li a {
+      display: inline-block;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  
