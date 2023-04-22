@@ -1,3 +1,6 @@
+.colorprincipal{
+  background-color: rgb(231, 204, 204);
+}
 .hero {
   background-image: url(../img/Inicio/imagendefondo1.png);
   background-size: cover;
@@ -10,45 +13,65 @@
   text-align: center;
   color: rgb(255, 0, 0);
   h1 {
-    font-size: 3em;
-    margin-bottom: 0;
-    font-family: 'Rubik Pixels', cursive;
+  font-size: 3em;
+  margin-bottom: 0;
+  font-family: 'Rubik Pixels', cursive;
   }
   p {
-    font-size: 1.5em;
-    margin-top: 0;
+  font-size: 1.5em;
+  margin-top: 0;
   }
-  .btn {
-    background-color: white;
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-    font-size: 1.2em;
- }
-
-  @media screen and (max-width: 600px) {
-    height: 300px;
-    h1 {
-        font-size: 2em;
-    }
-    p {
-        font-size: 1em;
-    }
-    .services {
-        flex-direction: column;
-        align-items: center;
-    }
-    .service {
-        margin-bottom: 30px;
-    }
+}
+  .service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 40px 20px;
+  
+  h2 {
+  text-align: center;
+  }
+  
+  img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  }
+  
+  h3 {
+  margin-top: 0;
+  }
+  
+  p {
+  margin-bottom: 0px;
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .hero {
+  height: 300px;
+  }
+  h1 {
+  font-size: 2em;
+  }
+  p {
+  font-size: 1em;
+  }
+  .service {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  }
     .about-us h2 {
-        font-size: 2em;
-    }
+     font-size: 2em;
+  }
     .about-us p {
-        font-size: 1em;
-    }
- }
+  font-size: 1em;
+  }
+    .btn {
+  font-size: 1.2em;
+  }
 }

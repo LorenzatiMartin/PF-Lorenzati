@@ -49,6 +49,10 @@ nav a:hover {
   color: rgb(255, 255, 255);
 }
 
+.colorprincipal {
+  background-color: rgb(231, 204, 204);
+}
+
 .hero {
   background-image: url(../img/Inicio/imagendefondo1.png);
   background-size: cover;
@@ -70,41 +74,56 @@ nav a:hover {
   font-size: 1.5em;
   margin-top: 0;
 }
-.hero .btn {
-  background-color: white;
-  color: #333;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 20px;
-  font-size: 1.2em;
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 40px 20px;
 }
+.service h2 {
+  text-align: center;
+}
+.service img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.service h3 {
+  margin-top: 0;
+}
+.service p {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 600px) {
   .hero {
     height: 300px;
   }
-  .hero h1 {
+  h1 {
     font-size: 2em;
   }
-  .hero p {
+  p {
     font-size: 1em;
   }
-  .hero .services {
+  .service {
     flex-direction: column;
     align-items: center;
-  }
-  .hero .service {
     margin-bottom: 30px;
   }
-  .hero .about-us h2 {
+  .about-us h2 {
     font-size: 2em;
   }
-  .hero .about-us p {
+  .about-us p {
     font-size: 1em;
   }
+  .btn {
+    font-size: 1.2em;
+  }
 }
-
 .services {
   display: flex;
   flex-wrap: wrap;
