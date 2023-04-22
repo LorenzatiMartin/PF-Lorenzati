@@ -6,51 +6,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     .pregunt {
         text-align: center;
         color: white;
-    
-        .titu {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            font-family: 'Rubik Pixels', cursive;
-        }
-    
-        p {
-            font-size: 1.5rem;
-            font-weight: 300;
-        }
+    .titu {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-family: 'Rubik Pixels', cursive;
     }
+    p {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+ }
 }
-    
 .faq {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding: 2rem;
-    
- .faq-item {
-width: 90%;
-max-width: 500px;
-margin-bottom: 2rem;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-padding: 1rem;
-text-align: center;
-    
- h2 {
-font-size: 1.5rem;
-margin-bottom: 1rem;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 2rem;
+    .faq-item {
+     width: 90%;
+     max-width: 500px;
+     margin-bottom: 2rem;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     padding: 1rem;
+     text-align: center;
+    h2 {
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
     }
-    
- img {
-    width: 100%;
-    margin-bottom: 1rem;
-}
-    
- p {
-font-size: 1.1rem;
-font-weight: 300;
-}
-   }
+    img {
+     width: 100%;
+     margin-bottom: 1rem;
+    }
+    p {
+     font-size: 1.1rem;
+     font-weight: 300;
+    }
+ }
 }
