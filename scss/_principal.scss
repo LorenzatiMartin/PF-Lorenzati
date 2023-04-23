@@ -22,7 +22,7 @@
    margin-top: 0;
   }
 }
-  .service {
+.service {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -30,21 +30,17 @@
   margin: 0 auto;
   max-width: 600px;
   padding: 40px 20px;
-  
   h2 {
   text-align: center;
   }
-  
   img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
   }
-  
   h3 {
   margin-top: 0;
   }
-  
   p {
   margin-bottom: 0px;
   }
