@@ -1,7 +1,7 @@
 .colorprincipal{
   background-color: $bg-color-uno;
 }
-@mixin hero {
+.hero {
    background-image: url(../img/Inicio/imagendefondo1.png);
    background-size: cover;
    background-position: center;

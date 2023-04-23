@@ -54,6 +54,28 @@ nav a:hover {
   background-color: rgb(231, 204, 204);
 }
 
+.hero {
+  background-image: url(../img/Inicio/imagendefondo1.png);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(205, 109, 109);
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+  font-family: "Rubik Pixels", cursive;
+}
+.hero p {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
 .service {
   display: flex;
   flex-wrap: wrap;
@@ -257,39 +279,18 @@ button[type=submit]:hover {
   border-color: #0062cc;
 }
 
-.about-us {
-  background-color: #f2f2f2;
-  padding: 50px 0;
-}
-@media screen and (max-width: 700px) {
-  .about-us {
-    padding: 10% 0;
+@media only screen and (max-width: 600px) {
+  .card-title {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .card .btn-primary {
+    font-size: 14px;
+    padding: 6px 12px;
   }
 }
-.about-us h2 {
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 700px) {
-  .about-us h2 {
-    font-size: 50px;
-    margin-bottom: 40px;
-  }
-}
-.about-us p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 700px) {
-  .about-us p {
-    font-size: 25px;
-    margin-bottom: 30px;
-  }
-}
-
 .our-team {
   background-color: #fff;
   padding: 50px 0;
