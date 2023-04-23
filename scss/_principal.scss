@@ -1,25 +1,25 @@
 .colorprincipal{
-  background-color: rgb(231, 204, 204);
+  background-color: $bg-color-uno;
 }
-.hero {
-  background-image: url(../img/Inicio/imagendefondo1.png);
-  background-size: cover;
-  background-position: center;
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: rgb(255, 0, 0);
-  h1 {
-  font-size: 3em;
-  margin-bottom: 0;
-  font-family: 'Rubik Pixels', cursive;
+@mixin hero {
+   background-image: url(../img/Inicio/imagendefondo1.png);
+   background-size: cover;
+   background-position: center;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: rgb(205, 109, 109);
+   h1 {
+   font-size: 3em;
+   margin-bottom: 0;
+   font-family: 'Rubik Pixels', cursive;
   }
-  p {
-  font-size: 1.5em;
-  margin-top: 0;
+   p {
+   font-size: 1.5em;
+   margin-top: 0;
   }
 }
   .service {

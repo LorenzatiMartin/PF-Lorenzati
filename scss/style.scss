@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+$bg-color: #fff;
+$bg-color-uno: rgb(231, 204, 204);
+$bg-color-dos: #2c3e50;
+$bg-color-tres: #545a7d;
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 
 @import "navbar";
 @import "principal";

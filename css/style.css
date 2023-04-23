@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -46,33 +47,11 @@ nav a {
 }
 nav a:hover {
   background-color: #7e7e7e;
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 .colorprincipal {
   background-color: rgb(231, 204, 204);
-}
-
-.hero {
-  background-image: url(../img/Inicio/imagendefondo1.png);
-  background-size: cover;
-  background-position: center;
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: rgb(255, 0, 0);
-}
-.hero h1 {
-  font-size: 3em;
-  margin-bottom: 0;
-  font-family: "Rubik Pixels", cursive;
-}
-.hero p {
-  font-size: 1.5em;
-  margin-top: 0;
 }
 
 .service {
@@ -148,14 +127,14 @@ nav a:hover {
 }
 
 .about-us {
-  background-color: #f2f2f2;
+  background-color: #fff;
   padding: 50px 0;
   text-align: center;
 }
 .about-us h2 {
   font-size: 2.5em;
   margin-bottom: 50px;
-  font-family: "Rubik Pixels", cursive;
+  font-family: "Castoro Titling", cursive;
 }
 .about-us p {
   font-size: 1.2em;
@@ -165,7 +144,7 @@ nav a:hover {
 }
 .about-us .btn {
   background-color: #333;
-  color: white;
+  color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -244,7 +223,7 @@ button[type=submit]:hover {
   }
 }
 .text {
-  font-family: "Rubik Pixels", cursive;
+  font-family: sans-serif;
 }
 
 .card {
@@ -369,7 +348,7 @@ button[type=submit]:hover {
 }
 .infopreguntas .pregunt {
   text-align: center;
-  color: white;
+  color: #fff;
 }
 .infopreguntas .pregunt .titu {
   font-size: 3rem;
@@ -410,7 +389,7 @@ button[type=submit]:hover {
 
 footer {
   background-color: #333;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 20px;
   font-family: "Delicious Handrawn", cursive;
